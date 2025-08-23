@@ -3,12 +3,7 @@ variable "additional_tags" {
   default = {}
 }
 
-variable "code_source" {
-  type    = string
-  default = ""
-}
-
-variable "created_using" {
+variable "created_by" {
   type    = string
   default = "terraform"
 }
@@ -17,9 +12,3 @@ variable "project" {
   type    = string
   default = ""
 }
-
-variable "tag_source" {
-  type    = string
-  default = ""
-}
-
